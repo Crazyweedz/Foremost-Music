@@ -1,0 +1,140 @@
+.button-link {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+border: 2px solid #313133;
+transition: background 0.3s, border 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+border-color: #ffffff;
+}
+
+a.social-button > svg {
+  fill: rgba(255,255,255,0.5);
+  transition: fill 0.3s;
+  height: 35px;
+  width: 50px;
+}
+
+a.social-button > svg:hover {
+  fill: #fff;
+}
+
+.artist-social {
+  display: flex;
+}
+
+.artist-social li {
+    padding-left: 10px;
+    padding-right: 15px;
+    list-style-type: '·';
+}
+
+.artist-social li:first-child {
+    list-style-type: none;
+}
+
+.artist-social li a {
+    color: #808080;
+}
+
+.artist-social li a:hover {
+    color: #ffffff;
+}
+
+.row__social {
+  justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .artist-social {
+    justify-content: center;
+  }
+  a.social-button > svg {
+    height: 35px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .artist-social {
+    justify-content: center;
+  }
+  a.social-button > svg {
+    height: 30px;
+    width: 30px;
+  }
+  .artist-social li {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .artist-social {
+    justify-content: center;
+  }
+  a.social-button > svg {
+    height: 20px;
+    width: 20px;
+  }
+  .artist-social li {
+    padding: 0 0 0 15px;
+  }
+}
+
+
+.flex-socials {
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-socials li {
+    margin-right: 15px;
+}
+
+.flex-socials li a {
+    color: rgba(255,255,255,0.5);
+    transition: color 0.3s;
+}
+
+.flex-socials li a:hover{
+    color: #fff;
+}
+
+.fb-share-button {
+    display: block !important;
+    margin-top: 25px !important;
+}
+
+.alerte {
+    border: 2px solid #313133;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-link-home {
+    color: rgba(255,255,255,0.5);
+}
+
+.contact-link-home:hover {
+    color: rgba(255,255,255);
+    transition: transform 0.5s, color 0.5s;
+}
